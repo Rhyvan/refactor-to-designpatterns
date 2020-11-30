@@ -1,7 +1,7 @@
 using DesignPatterns.State;
 using NUnit.Framework;
 
-namespace Tests.DesignPatterns.State
+namespace Tests.DesignPatterns
 {
     [TestFixture]
     public class StateTest
