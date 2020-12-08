@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.DesignPatterns", "Tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ChainOfResponsibility", "DesignPatterns.ChainOfResponsibility\DesignPatterns.ChainOfResponsibility.csproj", "{561EAFFB-0105-435C-9AB8-B64AA5A6B1DE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Command", "DesignPatterns.Command\DesignPatterns.Command.csproj", "{356A2B8A-FCBF-415C-827D-22EC81F3934E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{561EAFFB-0105-435C-9AB8-B64AA5A6B1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{561EAFFB-0105-435C-9AB8-B64AA5A6B1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{561EAFFB-0105-435C-9AB8-B64AA5A6B1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{356A2B8A-FCBF-415C-827D-22EC81F3934E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{356A2B8A-FCBF-415C-827D-22EC81F3934E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{356A2B8A-FCBF-415C-827D-22EC81F3934E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{356A2B8A-FCBF-415C-827D-22EC81F3934E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

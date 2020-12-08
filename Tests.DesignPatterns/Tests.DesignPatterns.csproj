@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DesignPatterns.ChainOfResponsibility\DesignPatterns.ChainOfResponsibility.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Command\DesignPatterns.Command.csproj" />
     <ProjectReference Include="..\DesignPatterns.State\DesignPatterns.State.csproj" />
   </ItemGroup>
 
