@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DesignPatterns.ChainOfResponsibility\DesignPatterns.ChainOfResponsibility.csproj" />
     <ProjectReference Include="..\DesignPatterns.State\DesignPatterns.State.csproj" />
   </ItemGroup>
 
