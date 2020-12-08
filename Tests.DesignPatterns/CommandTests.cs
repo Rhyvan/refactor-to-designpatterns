@@ -25,12 +25,6 @@ namespace Tests.DesignPatterns.Command
         {
             _sw.Dispose();
         }
-
-        [TearDown]
-        public void CleanUp()
-        {
-            //Console.SetOut(new StreamWriter(Console.OpenStandardError()));
-        } 
     }
 
     public abstract class AbstractJuniorTest : CommandTests
