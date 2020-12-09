@@ -11,7 +11,7 @@ namespace Tests.DesignPatterns.ChainOfResponsibility
         [SetUp]
         public void SetupBeforeEach()
         {
-            _chainClient = new NoPatternChainClient();
+            _chainClient = new PatternChainClient();
         }
 
         [Test]
