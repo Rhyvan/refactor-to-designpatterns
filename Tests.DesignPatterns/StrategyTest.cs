@@ -4,7 +4,7 @@ using System.Reflection;
 using DesignPatterns.Strategy;
 using NUnit.Framework;
 
-namespace Tests.DesignPatterns
+namespace Tests.DesignPatterns.Strategy
 {
     [TestFixture]
     class StrategyTest
