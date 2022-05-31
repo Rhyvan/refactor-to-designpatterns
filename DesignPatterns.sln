@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.DesignPatterns", "Tests.DesignPatterns\Tests.DesignPatterns.csproj", "{4800F4E6-D0F5-406B-AC5F-294D6CDD9A95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{EF2C0220-DC0D-490B-B3A4-D368F0DD8FFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{EF2C0220-DC0D-490B-B3A4-D368F0DD8FFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketTest", "SocketTest\SocketTest.csproj", "{8181B974-DACC-4181-9C6B-91835D623C0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EF2C0220-DC0D-490B-B3A4-D368F0DD8FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF2C0220-DC0D-490B-B3A4-D368F0DD8FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF2C0220-DC0D-490B-B3A4-D368F0DD8FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8181B974-DACC-4181-9C6B-91835D623C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8181B974-DACC-4181-9C6B-91835D623C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8181B974-DACC-4181-9C6B-91835D623C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8181B974-DACC-4181-9C6B-91835D623C0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

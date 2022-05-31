@@ -12,15 +12,14 @@ namespace Tests.DesignPatterns.Command
         protected IWaiter iWaiter;
         protected StringWriter _sw;
 
-
-        [OneTimeSetUp]
+        [SetUp]
         public void Init()
         {
             _sw = new StringWriter();
             Console.SetOut(_sw);
         }
 
-        [OneTimeTearDown]
+        [TearDown]
         public void AfterAllTestHasRun()
         {
             _sw.Dispose();
@@ -58,6 +57,34 @@ namespace Tests.DesignPatterns.Command
                     (
                         _sw.ToString(),
                         "Cooking soup Cooking steak Cooking some potatoes",
+                        new CultureInfo("en-US"),
+                        CompareOptions.IgnoreSymbols
+                    ) == 0
+                );
+        }
+    }
+
+    public class PatternTest : CommandTests
+    {
+        private static readonly object[] _data =
+        {
+            new object[]{ new JuniorWaiter(new Chef()), "Cooking soup Cooking pasta" },
+            new object[]{ new MediorSteakWaiter(new Chef(), new Cook()), "Cooking soup Cooking steak Cooking some potatoes" }
+        };
+
+        [Test]
+        [TestCaseSource(nameof(_data))]
+        public void OrderStartsCooking(IWaiter waiter, string expectedString)
+        {
+            var processer = new OrderProcesser();
+            processer.SetCommand(waiter);
+            processer.Execute();
+            Assert.True
+                (
+                    String.Compare
+                    (
+                        _sw.ToString(),
+                        expectedString,
                         new CultureInfo("en-US"),
                         CompareOptions.IgnoreSymbols
                     ) == 0
